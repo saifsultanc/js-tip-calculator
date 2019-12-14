@@ -9,9 +9,9 @@ body {
 }
 
 #container {
-  height: 525px;
+  height: 640px;
   width: 360px;
-  margin: 100px auto;
+  margin: 40px auto;
   background: #f7f7f7;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -44,6 +44,7 @@ form input[type="text"] {
 
 input {
   padding-left: 20px;
+  color: #2980b9 !important;
 }
 
 #billamt {
@@ -118,15 +119,21 @@ button:active {
   text-transform: uppercase;
 }
 
-#totalTip sup {
-  font-size: 20px;
-  top: -18px;
-}
-
 #totalTip small {
   font-size: 20px;
   font-weight: bold;
   display: block;
+}
+
+.error-hide {
+  visibility: hidden;
+}
+
+.error-show {
+  visibility: visible;
+  text-transform: uppercase;
+  color: red;
+  text-align: center;
 }
 
 #serviceQual input {
