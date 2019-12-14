@@ -132,7 +132,8 @@ button:active {
 .error-show {
   visibility: visible;
   text-transform: uppercase;
-  color: red;
+  background-color: rgb(201, 201, 201);
+  color: purple;
   text-align: center;
 }
 
